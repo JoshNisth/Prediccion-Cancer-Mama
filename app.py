@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import os
 
+#AUTHOR: Mau
+
+
 app = Flask(__name__)
 app.secret_key = "clave_secreta"  # Clave necesaria para usar flash
 
